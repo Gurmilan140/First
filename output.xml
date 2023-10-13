@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20231006 10:04:23.904" rpa="false" schemaversion="4">
+<suite id="s1" name="Practice" source="C:\Users\hp\PycharmProjects\Testpractice\Testcases\Practice.robot">
+<test id="s1-t1" name="Brand" line="17">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20231006 10:04:24.432" level="INFO">Opening browser 'chrome' to base url 'https://uat-app.aithentic.com'.</msg>
+<status status="PASS" starttime="20231006 10:04:24.431" endtime="20231006 10:04:33.598"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20231006 10:04:33.600" endtime="20231006 10:04:33.733"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://a[normalize-space()='Login']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231006 10:04:33.735" level="INFO">Clicking element 'xpath://a[normalize-space()='Login']'.</msg>
+<status status="PASS" starttime="20231006 10:04:33.734" endtime="20231006 10:04:33.905"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${email}</arg>
+<arg>60</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20231006 10:04:33.906" endtime="20231006 10:04:34.919"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${email}</arg>
+<arg>testqa29j@mailinator.com</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231006 10:04:34.921" level="INFO">Typing text 'testqa29j@mailinator.com' into text field 'css:#Email'.</msg>
+<status status="PASS" starttime="20231006 10:04:34.920" endtime="20231006 10:04:35.685"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${password}</arg>
+<arg>Test!@9859</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20231006 10:04:35.688" level="INFO">Typing text 'Test!@9859' into text field 'xpath://input[@id='Password']'.</msg>
+<status status="PASS" starttime="20231006 10:04:35.686" endtime="20231006 10:04:35.910"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${sig in}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231006 10:04:35.912" level="INFO">Clicking element 'css:button[type='submit']'.</msg>
+<status status="PASS" starttime="20231006 10:04:35.911" endtime="20231006 10:04:36.024"/>
+</kw>
+<kw name="Wait Until Location Contains" library="SeleniumLibrary">
+<arg>https://uat-app.aithentic.com/dashboard/home/asset-overview</arg>
+<arg>60</arg>
+<doc>Waits until the current URL contains ``expected``.</doc>
+<status status="PASS" starttime="20231006 10:04:36.025" endtime="20231006 10:04:45.369"/>
+</kw>
+<kw name="Click on IT">
+<arg>IT Performance</arg>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>xpath://span[normalize-space()="${Key}"]</arg>
+<arg>60</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20231006 10:04:45.371" endtime="20231006 10:04:45.432"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>xpath://span[normalize-space()="${Key}"]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231006 10:04:45.433" level="INFO">Clicking element 'xpath://span[normalize-space()="IT Performance"]'.</msg>
+<status status="PASS" starttime="20231006 10:04:45.433" endtime="20231006 10:04:45.530"/>
+</kw>
+<status status="PASS" starttime="20231006 10:04:45.370" endtime="20231006 10:04:45.530"/>
+</kw>
+<kw name="Wait Until Location Contains" library="SeleniumLibrary">
+<arg>it-performance</arg>
+<arg>60</arg>
+<doc>Waits until the current URL contains ``expected``.</doc>
+<status status="PASS" starttime="20231006 10:04:45.531" endtime="20231006 10:04:46.747"/>
+</kw>
+<kw name="Wait Until Element Is Not Visible" library="SeleniumLibrary">
+<arg>${loader}</arg>
+<arg>60</arg>
+<doc>Waits until the element ``locator`` is not visible.</doc>
+<status status="PASS" starttime="20231006 10:04:46.748" endtime="20231006 10:04:48.340"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${brandReport_Tab}</arg>
+<arg>60</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20231006 10:04:48.342" endtime="20231006 10:04:48.383"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${brandReport_Tab}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231006 10:04:48.385" level="INFO">Clicking element 'css:#brand-reports-tab'.</msg>
+<status status="PASS" starttime="20231006 10:04:48.384" endtime="20231006 10:04:48.509"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${brandReport_List}</arg>
+<arg>60</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20231006 10:04:48.515" endtime="20231006 10:04:48.902"/>
+</kw>
+<kw name="Get WebElements" library="SeleniumLibrary">
+<var>${elements}</var>
+<arg>${brandReport_List}</arg>
+<doc>Returns a list of WebElement objects matching the ``locator``.</doc>
+<msg timestamp="20231006 10:04:49.463" level="INFO">${elements} = [&lt;selenium.webdriver.remote.webelement.WebElement (session="9eef4e13960bf42d5bc5dcc31b8ebbe8", element="E4576AE3DCF0C338BEEC41855B173E85_element_70")&gt;, &lt;selenium.webdriver.remote.webelement.WebElement...</msg>
+<status status="PASS" starttime="20231006 10:04:48.903" endtime="20231006 10:04:49.463"/>
+</kw>
+<for flavor="IN">
+<var>${element}</var>
+<value>@{elements}</value>
+<iter>
+<var name="${element}">&lt;selenium.webdriver.remote.webelement.WebElement (session="9eef4e13960bf42d5bc5dcc31b8ebbe8", element="E4576AE3DCF0C338BEEC41855B173E85_element_70")&gt;</var>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${element}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231006 10:04:49.471" level="INFO">Clicking element '&lt;selenium.webdriver.remote.webelement.WebElement (session="9eef4e13960bf42d5bc5dcc31b8ebbe8", element="E4576AE3DCF0C338BEEC41855B173E85_element_70")&gt;'.</msg>
+<status status="PASS" starttime="20231006 10:04:49.470" endtime="20231006 10:04:49.796"/>
+</kw>
+<kw name="Wait Until Element Is Not Visible" library="SeleniumLibrary">
+<arg>${loader}</arg>
+<arg>60</arg>
+<doc>Waits until the element ``locator`` is not visible.</doc>
+<status status="PASS" starttime="20231006 10:04:49.797" endtime="20231006 10:04:50.874"/>
+</kw>
+<status status="PASS" starttime="20231006 10:04:49.469" endtime="20231006 10:04:50.874"/>
+</iter>
+<iter>
+<var name="${element}">&lt;selenium.webdriver.remote.webelement.WebElement (session="9eef4e13960bf42d5bc5dcc31b8ebbe8", element="E4576AE3DCF0C338BEEC41855B173E85_element_71")&gt;</var>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${element}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231006 10:04:50.875" level="INFO">Clicking element '&lt;selenium.webdriver.remote.webelement.WebElement (session="9eef4e13960bf42d5bc5dcc31b8ebbe8", element="E4576AE3DCF0C338BEEC41855B173E85_element_71")&gt;'.</msg>
+<status status="PASS" starttime="20231006 10:04:50.874" endtime="20231006 10:04:51.098"/>
+</kw>
+<kw name="Wait Until Element Is Not Visible" library="SeleniumLibrary">
+<arg>${loader}</arg>
+<arg>60</arg>
+<doc>Waits until the element ``locator`` is not visible.</doc>
+<status status="PASS" starttime="20231006 10:04:51.098" endtime="20231006 10:04:52.113"/>
+</kw>
+<status status="PASS" starttime="20231006 10:04:50.874" endtime="20231006 10:04:52.113"/>
+</iter>
+<iter>
+<var name="${element}">&lt;selenium.webdriver.remote.webelement.WebElement (session="9eef4e13960bf42d5bc5dcc31b8ebbe8", element="E4576AE3DCF0C338BEEC41855B173E85_element_72")&gt;</var>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${element}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231006 10:04:52.115" level="INFO">Clicking element '&lt;selenium.webdriver.remote.webelement.WebElement (session="9eef4e13960bf42d5bc5dcc31b8ebbe8", element="E4576AE3DCF0C338BEEC41855B173E85_element_72")&gt;'.</msg>
+<status status="PASS" starttime="20231006 10:04:52.114" endtime="20231006 10:04:52.258"/>
+</kw>
+<kw name="Wait Until Element Is Not Visible" library="SeleniumLibrary">
+<arg>${loader}</arg>
+<arg>60</arg>
+<doc>Waits until the element ``locator`` is not visible.</doc>
+<msg timestamp="20231006 10:04:52.320" level="INFO">Suppressing StaleElementReferenceException from Selenium.</msg>
+<status status="PASS" starttime="20231006 10:04:52.260" endtime="20231006 10:04:52.539"/>
+</kw>
+<status status="PASS" starttime="20231006 10:04:52.114" endtime="20231006 10:04:52.539"/>
+</iter>
+<status status="PASS" starttime="20231006 10:04:49.469" endtime="20231006 10:04:52.539"/>
+</for>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${download_brandReportSheet}</arg>
+<arg>60</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20231006 10:04:52.540" endtime="20231006 10:04:52.588"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>${download_brandReportSheet}</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231006 10:04:52.590" level="INFO">Clicking element 'css:#brandReports i'.</msg>
+<status status="PASS" starttime="20231006 10:04:52.589" endtime="20231006 10:04:52.720"/>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<arg>css:div[id='brandReports'] i[title='File is preparing please wait']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<msg timestamp="20231006 10:04:52.722" level="INFO">Clicking element 'css:div[id='brandReports'] i[title='File is preparing please wait']'.</msg>
+<status status="PASS" starttime="20231006 10:04:52.721" endtime="20231006 10:04:52.846"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${aleret_msg2}</arg>
+<arg>60</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20231006 10:04:52.846" endtime="20231006 10:04:53.162"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${alert_text}</var>
+<arg>${aleret_msg2}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20231006 10:04:53.237" level="INFO">${alert_text} = Brand Report will get download soon</msg>
+<status status="PASS" starttime="20231006 10:04:53.163" endtime="20231006 10:04:53.238"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>${alert_text}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20231006 10:04:53.238" endtime="20231006 10:04:53.239"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${alert_text}</arg>
+<arg>Brand Report will get download soon</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" starttime="20231006 10:04:53.239" endtime="20231006 10:04:53.240"/>
+</kw>
+<status status="PASS" starttime="20231006 10:04:24.430" endtime="20231006 10:04:53.241"/>
+</test>
+<status status="PASS" starttime="20231006 10:04:23.909" endtime="20231006 10:04:53.246"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Practice">Practice</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
