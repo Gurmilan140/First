@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20231001 18:51:35.166" rpa="false" schemaversion="4">
+<suite id="s1" name="Assignment4" source="C:\Users\hp\PycharmProjects\pythonProject\Testcases\Assignment4.robot">
+<test id="s1-t1" name="Milan" line="6">
+<kw name="Open browser">
+<arg>https://www.google.com</arg>
+<arg>chrome</arg>
+<msg timestamp="20231001 18:51:35.229" level="FAIL">No keyword with name 'Open browser' found.</msg>
+<status status="FAIL" starttime="20231001 18:51:35.229" endtime="20231001 18:51:35.229"/>
+</kw>
+<kw name="maximize browser window">
+<status status="NOT RUN" starttime="20231001 18:51:35.232" endtime="20231001 18:51:35.232"/>
+</kw>
+<status status="FAIL" starttime="20231001 18:51:35.225" endtime="20231001 18:51:35.232">No keyword with name 'Open browser' found.</status>
+</test>
+<status status="FAIL" starttime="20231001 18:51:35.172" endtime="20231001 18:51:35.235"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Assignment4">Assignment4</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
