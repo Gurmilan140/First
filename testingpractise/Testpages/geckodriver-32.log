@@ -1,0 +1,15 @@
+1698740974092	geckodriver	INFO	Listening on 127.0.0.1:64812
+1698740977223	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "64813" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\hp\\AppData\\Local\\Temp\\rust_mozprofileqBmaQR"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1698740978336	Marionette	INFO	Marionette enabled
+Dynamically enable window occlusion 0
+1698740978604	Marionette	INFO	Listening on port 64822
+WebDriver BiDi listening on ws://127.0.0.1:64813
+Read port: 64822
+1698740979056	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:64813/devtools/browser/bb27806e-41b8-4a14-9429-627d69bb1be3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://uat-app.aithentic.com."
+1698741008388	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://yopmail.com."
+JavaScript error: , line 0: uncaught exception: undefined

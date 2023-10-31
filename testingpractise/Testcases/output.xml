@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20231025 16:14:39.940" rpa="false" schemaversion="4">
+<suite id="s1" name="NewAssignment" source="C:\Users\hp\PycharmProjects\Testpractice\Testcases\NewAssignment.robot">
+<test id="s1-t1" name="RedBus" line="6">
+<kw name="Open browser">
+<arg>https://www.redbus.in/</arg>
+<arg>chrome</arg>
+<msg timestamp="20231025 16:14:40.010" level="FAIL">No keyword with name 'Open browser' found.</msg>
+<status status="FAIL" starttime="20231025 16:14:40.010" endtime="20231025 16:14:40.010"/>
+</kw>
+<kw name="Maximize browser window">
+<status status="NOT RUN" starttime="20231025 16:14:40.013" endtime="20231025 16:14:40.014"/>
+</kw>
+<kw name="wait until element is visible">
+<arg>css:#src</arg>
+<arg>60</arg>
+<status status="NOT RUN" starttime="20231025 16:14:40.017" endtime="20231025 16:14:40.017"/>
+</kw>
+<kw name="input text">
+<arg>css:#src</arg>
+<arg>Ludhiana</arg>
+<status status="NOT RUN" starttime="20231025 16:14:40.020" endtime="20231025 16:14:40.020"/>
+</kw>
+<kw name="wait until element is visible">
+<arg>css:#dest</arg>
+<arg>60</arg>
+<status status="NOT RUN" starttime="20231025 16:14:40.024" endtime="20231025 16:14:40.024"/>
+</kw>
+<kw name="input text">
+<arg>css:#dest</arg>
+<arg>Delhi</arg>
+<status status="NOT RUN" starttime="20231025 16:14:40.027" endtime="20231025 16:14:40.027"/>
+</kw>
+<status status="FAIL" starttime="20231025 16:14:40.006" endtime="20231025 16:14:40.027">No keyword with name 'Open browser' found.</status>
+</test>
+<status status="FAIL" starttime="20231025 16:14:39.946" endtime="20231025 16:14:40.029"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="NewAssignment">NewAssignment</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
